@@ -3,12 +3,14 @@
 int main(void)
 {
     int count;
-    int n=0;
+    int a;
     int b;
+    int c;
     int encrypt=2;
     //alphnos=alphabet numbers
     int alphnos[26];
     char message[]="HELLO";//enter message here
+    int newmessage[6];
    //this for loop creates an array with numbers 0-25
         for (count=0;count<26;count++)
         {
@@ -21,11 +23,7 @@ int main(void)
             b=65+(count-(26-encrypt));// works for overflow
             } 
         }
-        for(n=0; n<5;n++){
-        message[n]=b+message;
-        printf("%c\n", message);
-        }
-
+        
         return 0;
 }
 

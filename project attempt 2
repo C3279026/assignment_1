@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main(void)
+{
+    int count=0;
+    int a;
+    int b;
+    int k;
+    int coddedmessage[1024];
+    int message[]={65};// message area
+   message[a]=2+coddedmessage[a];
+   printf("%c",message);
+   return 0;
+}
+    
+  
